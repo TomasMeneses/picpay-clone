@@ -58,6 +58,8 @@ export const Value = styled.Text`
 `;
 export const CardFooter = styled.View`
     margin-top: 15px;
+    flex-direction: row;
+    justify-content: space-between;
 `;
 
 export const Divider = styled.View`
@@ -71,4 +73,17 @@ export const Date = styled.Text`
     color: #FFF;
     margin-left: 5px;
 
+`;
+
+export const Actions = styled.View`
+    flex-direction: row;
+`;
+export const Option = styled.TouchableOpacity`
+    margin-left: 15px;
+    flex-direction: row;
+`;
+export const OptionLabel = styled.Text`
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
 `;
